@@ -1,0 +1,1 @@
+insert into address_type (name) values ('Residential Address'), ('Postal Address')

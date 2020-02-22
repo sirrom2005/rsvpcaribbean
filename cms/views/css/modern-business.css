@@ -1,0 +1,163 @@
+.form-control{ margin-bottom:20px;}
+.pageHeading{ font-weight:bold; font-size:22px;}
+blockquote{font-weight:normal; font-size:14px;}
+.tab-pane{padding-top:10px;}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+.newsletter{width:100%;}
+.newsletter th{text-align:center;}
+.newsletter td{height:70px;}
+
+a.view,a.edit,a.delete, a.refresh{display:inline-block; width:16px; height:16px; background-position:0 0; background-repeat:no-repeat; outline:none; padding-left:3px;}
+a.view{background-image:url(../../views/images/view.png);}
+/*a.view:hover{background-image:url(../../views/images/view_hover.png);}*/
+a.edit{background-image:url(../../views/images/edit.png);}
+a.delete{background-image:url(../../views/images/delete.png); border:solid 1px #FF0000;}
+a.refresh{background-image:url(../../views/images/refresh.png);  padding-left:18px; display:block; width:auto;}
+
+#pager{ text-align:right;}
+#pager a{display:inline-block; margin-left:10px;}
+
+a.disabled,a.enabled{
+	display:block;
+	padding-left:20px;
+	background-image:url(../../views/images/checkbox.png);
+	background-position:0 2px; 
+	background-repeat:no-repeat;
+	text-decoration:none;
+        text-transform:capitalize;
+}
+
+a.enabled{
+	background-position:0 -22px; 
+}
+
+#gallery span{display:inline-block;width:100px;margin-right:5px;border:solid 1px #666;}
+#gallery span img{width:100px;}
+#gallery span .delete{float:right;}
+
+#checklistTable th{font-weight:bold; text-align:center;}
+#checklistTable .subHeading td{text-align:center;}
+
+#imgloader{
+	padding:10px; 
+	width:220px; 
+	position:fixed; 
+	margin-left:300px; 
+	border:1px solid #CCCCCC; 
+	z-index:99999; 
+	color:#000000; 
+	background-color:#FFFFFF;
+}
+#imgloader img {}
+/**
+ * nicetab - tabstrip theme
+*/
+.tabContent{
+	background-color:#FFF;
+	border:1px solid #ccc;
+	margin:20px 10px;
+	padding:2px 20px 20px 20px;
+	-moz-border-radius:6px; 
+	-webkit-border-radius:6px; 
+	border-radius:6px;
+	-khtml-border-radius:6px;}
+.tab_content{
+	background-color:#f4f4f4;
+	border:1px solid #ccc;
+	padding-top:5px;
+	/*width:1000px;*/
+	-moz-border-radius:6px; 
+	-webkit-border-radius:6px; 
+	border-radius:6px;
+	-khtml-border-radius:6px;
+}
+ul.rax-tabstrip.nicetab {
+	border:none;
+	background:url("../images/tab_bg.gif") repeat-x left bottom;
+}
+ul.rax-tabstrip.nicetab li {
+	border:none;
+	padding:0 0 0 9px;
+	background:url("../images/tab_off.png") no-repeat left top;
+}
+ul.rax-tabstrip.nicetab a {
+	color:#765;
+	border:none;
+	padding:5px 15px 4px 6px;
+	background:url("../images/tab_off.png") no-repeat right top;
+}
+ul.rax-tabstrip.nicetab a:hover {color:#333;}
+ul.rax-tabstrip.nicetab .selected-tab  {
+	cursor:default;
+	border:none;
+	outline:none;
+	background:url("../images/tab_on.png")  no-repeat left top;
+}
+ul.rax-tabstrip.nicetab .selected-tab a {
+	color:#333;
+	padding-bottom:5px;
+	border:none;
+	outline:none;
+	background:url("../images/tab_on.png") no-repeat right top;
+}
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+/* Global Styles */
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Pricing Page Styles */
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period { 
+    display: block;
+    font-style: italic;
+}
+.filter{text-align:center; font-weight:bold; text-transform:uppercase;}
+select.filter option{text-align:center; font-weight:bold; padding:10px;}

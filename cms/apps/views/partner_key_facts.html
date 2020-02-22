@@ -1,0 +1,46 @@
+<style>
+#appForm{border:solid 1px #333333; width:500px;  background-color:#FFFFFF;}
+#appForm div{padding:0px 10px 10px 10px;}
+#appForm textarea{width:100%; margin-bottom:20px;}
+#appForm .action{text-align:right; margin:0; padding:0;}
+#appForm h6{margin:0 0 10px 0; padding:0; font-size:13px;; font-weight:bold; background-color:#003; color:#FFF; padding:10px;}
+</style>
+<form name="appForm" id="appForm" method="post">
+<h6>Partner Key Facts</h6>
+<div>
+    <label class="control-label col-lg-6">Population Served:</label>
+    <div class="col-lg-6">
+    	<input type="number" class="form-control" name="population" id="population" placeholder="Please enter amount" />
+    </div>
+    <label class="control-label col-lg-6">Number of persons:</label>
+    <div class="col-lg-6">
+    	<input type="number" class="form-control" name="number_of_persons" id="number_of_persons" placeholder="Please enter amount" />
+    </div>
+    <label class="control-label col-lg-6">Average group size:</label>
+    <div class="col-lg-6">
+    	<input type="number" class="form-control" name="group_size" id="group_size" placeholder="Please enter amount" />
+    </div>
+    <label class="control-label col-lg-6">Age group:</label>
+    <div class="col-lg-6">
+    <input type="number" class="form-control" name="age_group" id="age_group" placeholder="Please enter amount" />
+    </div>
+    <label class="control-label col-lg-6">Hours of work – day/week:</label>
+    <div class="col-lg-6">
+    <input type="text" class="form-control" name="hours_of_work" id="hours_of_work" placeholder="Please enter amount" />
+    </div>
+    <label class="control-label col-lg-6">Number of staff:</label>
+    <div class="col-lg-6">
+    <input type="number" class="form-control" name="number_of_staff" id="number_of_staff" placeholder="Please enter amount" /> 
+    </div>
+    <label class="control-label col-lg-6">Type of organization:</label>
+    <div class="col-lg-6">
+    <input type="text" class="form-control" name="institution_type_id" id="institution_type_id" placeholder="Please enter type" />  
+    </div>
+    
+    <input type="hidden" name="project_key_id" id="project_key_id">
+    <p class="action">
+        <button type='submit' class='btn btn-primary' id='btnAction'><span>Submit</span><img src='views/images/loader.gif' alt='.' style="display:none;" /></button>
+        <button type='button' class='btn btn-default' id='btnCancel'><span>Close</span></button>
+    </p>
+</div>
+</form>

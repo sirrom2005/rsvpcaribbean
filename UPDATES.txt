@@ -1,0 +1,11 @@
+ADD TO LIVE SERVER
+volunteer_placement
+
+view_volunteer_info
+view_volunteer_quick_info
+view_destination_report_records
+volunteer_search_form
+volunteer
+
+
+DROP emergency_contact

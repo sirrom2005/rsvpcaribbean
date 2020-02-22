@@ -1,0 +1,18 @@
+<style>
+#app_notes{border:solid 1px #333333; width:500px;  background-color:#FFFFFF;}
+#app_notes div{padding:0px 10px 10px 10px;}
+#app_notes textarea{width:100%; margin-bottom:20px;}
+#app_notes .action{text-align:right; margin:0; padding:0;}
+#app_notes h6{margin:0 0 10px 0; padding:0; font-size:13px;; font-weight:bold; background-color:#003; color:#FFF; padding:10px;}
+</style>
+<form name="app_notes" id="app_notes" method="post">
+<h6>Add Note</h6>
+<div>
+    <textarea rows="6" name="notes" id="notes" required maxlength="999" style="resize:none">{notes}</textarea>
+    <input type="hidden" name="notes_id" id="notes_id">
+    <p class="action">
+        <button type='submit' class='btn btn-primary' id='btnAction'><span>Submit</span><img src='views/images/loader.gif' alt='.' style="display:none;" /></button>
+        <button type='button' class='btn btn-default' id='btnCancel'><span>Close</span></button>
+    </p>
+</div>
+</form>
